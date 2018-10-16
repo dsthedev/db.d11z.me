@@ -1,0 +1,26 @@
+# Visual Studio Code
+*.code-workspace
+*.vs-code
+
+# Node / NPM
+node_modules/
+package-lock.json
+
+# Composer
+vendor/
+composer.lock
+
+# Foundation
+dist/
+
+# General
+*.log
+
+# Core
+config.php
+
+# Apache
+.htaccess
+
+# Sublime Text 2/3
+sftp-config.json
