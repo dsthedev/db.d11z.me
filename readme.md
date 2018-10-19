@@ -77,7 +77,7 @@ npm install
 
 To sync the project up to the production area, add the following rules to the `sftp-config.json` file to avoid uploading development files.
 
-- `".gitignore", "gulpfile.babel.js", "composer.json", "package.json", "package-alt.json", "composer.lock", "readme.md", "config.yml", "vendor/", "node_modules/", "src/", "dist/assets/scss/", "code-workspace"`
+- `".gitignore", "gulpfile.babel.js", "composer.json", "package.json", "package-alt.json", "composer.lock", "readme.md", "config.yml", "vendor/", "node_modules/", "src/", "dist/assets/scss/", "code-workspace", "package-lock.json", "sample.htaccess", ".htaccess", "config.php", "error_log"`
 
 ---
 

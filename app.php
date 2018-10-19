@@ -18,7 +18,17 @@ class App {
 	function main_content() {
 
 		echo <<<HTML
-<a class="button" href="http://localhost" target="_blank">localhost</a>
+<ul class="dropdown menu" data-dropdown-menu>
+  <li class="is-dropdown-submenu-parent">
+    <a href="#">Local Hosts</a>
+    <ul class="menu">
+			<li><a href="http://localhost/" target="_blank">localhost</a></li>
+			<li><a href="http://localhost:3030/" target="_blank">localhost:3030</a></li>
+			<li><a href="http://172.16.64.202:8706/" target="_blank">172.16.64.202:8706</a></li>
+    </ul>
+  </li>
+</ul>
+
 HTML;
 
 	}

@@ -1,7 +1,7 @@
 # Your project's server will run on localhost:xxxx at this port
-PROXY: "http://localhost/"
+# PROXY: "http://localhost/"
 # Using a custom IP & port locally instead of localhost?  Use this instead: (But PLEASE don't commit it to the repo, localhost is the preferred setup)
-# PROXY: "http://172.16.64.202:8706/"
+PROXY: "http://172.16.64.202:8706/"
 PORT: 3030
 
 # Autoprefixer will make sure your CSS works with these browsers
